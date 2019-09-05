@@ -1,0 +1,5 @@
++incdir+../../bench/verilog
++incdir+../../rtl/verilog
+        ./sim_define.v
+        ../../rtl/verilog/arbiter.v
+        ../../bench/verilog/top.v

@@ -1,0 +1,14 @@
+//--------------------------------------------------------------------
++incdir+../../design/verilog
+        ./sim_define.v
+        ../../design/verilog/ahb2ahb.v
+        ../../../bfm_ahb_task/design/verilog/mem_ahb.v
++incdir+../../../ahb_lite/design/verilog
+        ../../../ahb_lite/design/verilog/ahb_lite_s3.v
+//--------------------------------------------------------------------
+// Below are test-bench
+//--------------------------------------------------------------------
++incdir+../../bench/verilog
+        ../../bench/verilog/top.v
+        ../../bench/verilog/bfm_ahb.v
+//--------------------------------------------------------------------

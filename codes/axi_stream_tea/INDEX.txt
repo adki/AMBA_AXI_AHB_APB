@@ -1,0 +1,10 @@
+Clean.bat
+Clean.sh
+Makefile
+bench/               - along with 'sim'.
+bench.bmp/           - along with 'sim.bmp'
+bench.stream/        - along with 'sim.stream', AMBA AXI-Stream interface
+rtl/
+sim/
+sim.bmp/
+sim.stream/

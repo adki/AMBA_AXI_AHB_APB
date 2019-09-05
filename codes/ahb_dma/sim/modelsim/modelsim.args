@@ -1,0 +1,17 @@
+//-----------------------------------------------
++define+VCD
++define+SIM
+//-----------------------------------------------
+./sim_define.v
+//-----------------------------------------------
++incdir+../../rtl/verilog
+        ../../rtl/verilog/dma_ahb_simple.v
+//-----------------------------------------------
++incdir+../../bench/verilog
+        ../../bench/verilog/top.v
+        ../../bench/verilog/mem_ahb.v
+        ../../bench/verilog/ahb_test.v
+        ../../bench/verilog/amba_ahb_m3s3.v
+        ../../bench/verilog/ahb_lite_s3.v
+        ../../bench/verilog/ahb_master.v
+//-----------------------------------------------

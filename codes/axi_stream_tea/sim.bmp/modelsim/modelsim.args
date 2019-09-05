@@ -1,0 +1,6 @@
++incdir+../../bench.bmp/verilog
+../../rtl/verilog/tea_decryptor_core.v
+../../rtl/verilog/tea_encryptor_core.v
+../../bench.bmp/verilog/check.v
+../../bench.bmp/verilog/bmp_stimulus_file.v
+../../bench.bmp/verilog/top.v

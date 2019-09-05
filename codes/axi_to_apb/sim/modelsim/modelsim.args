@@ -1,0 +1,13 @@
+//--------------------------------------------------------------------
++incdir+../../design/verilog
+        ./sim_define.v
+        ../../design/verilog/axi_to_apb_s5.v
+        ../../design/verilog/mem_apb4.v
++incdir+../../../bfm_axi_task/bench/verilog
+        ../../../bfm_axi_task/bench/verilog/bfm_axi.v
+//--------------------------------------------------------------------
+// Below are test-bench
+//--------------------------------------------------------------------
++incdir+../../bench/verilog
+        ../../bench/verilog/top.v
+//--------------------------------------------------------------------

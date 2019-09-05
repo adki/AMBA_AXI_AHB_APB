@@ -1,0 +1,16 @@
+//-----------------------------------------
++define+RIGOR
++define+VCD
+//-----------------------------------------
+./sim_define.v
+//-----------------------------------------
++incdir+../../rtl/verilog
+        ../../rtl/verilog/axi_bridge_sync.v
+//-----------------------------------------
++incdir+../../bench.sync/verilog
+        ../../bench.sync/verilog/bfm_axi.v
++incdir+../../bench.sync/verilog
+        ../../bench.sync/verilog/axi_slave.v
++incdir+../../bench.sync/verilog
+        ../../bench.sync/verilog/top.v
+//-----------------------------------------

@@ -1,0 +1,15 @@
+//--------------------------------------------------------------------
++incdir+../../design/verilog
+        ./sim_define.v
+        ../../design/verilog/axi_switch_m2s2.v
+//--------------------------------------------------------------------
++incdir+../../../bfm_axi_task/bench/verilog
+        ../../../bfm_axi_task/bench/verilog/bfm_axi.v
++incdir+../../../bfm_axi_task/design/verilog
+        ../../../bfm_axi_task/design/verilog/mem_axi.v
+//--------------------------------------------------------------------
+// Below are test-bench
+//--------------------------------------------------------------------
++incdir+../../bench/verilog
+        ../../bench/verilog/top.v
+//--------------------------------------------------------------------

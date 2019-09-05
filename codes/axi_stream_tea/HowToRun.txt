@@ -1,0 +1,16 @@
+
+1. core simulation: 'bench' and 'rtl' and 'sim'
+    - go to 'sim/modelsim'
+    - run 'make'
+
+2. core simulation with BMP: 'bench.bmp' and 'rtl' and 'sim.bmp'
+    - go to 'sim.bmp/modelsim'
+    - run 'make'
+
+3. stream simulation: 'bench.stream' and 'rtl' and 'sim.stream'
+    - go to 'sim.stream/modelsim'
+    - run 'make'
+
+4. stream simulation with BMP: 'bench.stream.bmp' and 'rtl' and 'sim.stream.bmp'
+    - go to 'sim.stream.bmp/modelsim'
+    - run 'make'

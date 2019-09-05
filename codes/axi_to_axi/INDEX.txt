@@ -1,0 +1,21 @@
+
+bench.async/    AXI bridge test-bench for asynch mode (see sim.async)
+bench.ms/       AXI bridge test-bench using AXI master and Slave (see sim.ms)
+bench.sync/     AXI bridge test-bench for synch mode (see sim.sync)
+
+sim.async/      HDL simulation for AXI bridge for asynch mode (see bench.async)
+sim.ms/         HDL simulation for AXI bridge using AXI master/slave (see bench.ms)
+sim.sync/       HDL simulation for AXI bridge for synch mode (see bench.sync)
+
+rtl/verilog/axi_bridge_async.v             (Asynch top)
+rtl/verilog/axi_bridge_core.v
+rtl/verilog/axi_bridge_async_fifo.v
+rtl/verilog/axi_bridge_sync.v              (Sync top)
+rtl/verilog/axi_bridge_core.v
+rtl/verilog/axi_bridge_sync_fifo.v
+rtl/verilog/axi_bridge_slave.v
+rtl/verilog/axi_bridge_master.v
+rtl/verilog/axi_bridge_sync_fifo.v
+
+doc/
+syn/

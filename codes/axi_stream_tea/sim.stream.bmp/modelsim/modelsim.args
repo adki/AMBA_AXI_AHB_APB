@@ -1,0 +1,8 @@
++incdir+../../bench.stream.bmp/verilog
++incdir+../../rtl/verilog
+./sim_define.v
+../../rtl/verilog/tea_decryptor_stream.v
+../../rtl/verilog/tea_encryptor_stream.v
+../../bench.stream.bmp/verilog/check_stream.v
+../../bench.stream.bmp/verilog/bmp_stimulus_stream.v
+../../bench.stream.bmp/verilog/top.v
