@@ -335,9 +335,9 @@ module dma_axi_simple_core_write
    end // always
    //---------------------------------------------------------
    always @ ( * ) begin
-       fifo_rd_rdy = (state_write==SW_WR);
+       fifo_rd_rdy = (state_write==SW_WR) & fifo_rd_vld & M_WREADY;
        M_WDATA     = fifo_rd_dat;
-       M_WVALID    = (state_write==SW_WR) & fifo_rd_rdy & fifo_rd_vld;
+       M_WVALID    = (state_write==SW_WR) & fifo_rd_vld;
        M_WLAST     = (state_write==SW_WR) & (W_cnt==W_len);
    end
    //---------------------------------------------------------
