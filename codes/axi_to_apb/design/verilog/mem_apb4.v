@@ -100,7 +100,9 @@ assign d = tmp[3];
         if (PRESETn==1'b0) begin
             PRDATA <= ~'h0;
         end else begin
-            PRDATA <= mem[TA];
+            if (PSEl & ~PENABLE & ~PWRITE) begin
+               PRDATA <= mem[TA];
+            end
         end
    end
    //-----------------------------------------------------
